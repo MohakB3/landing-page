@@ -4,13 +4,43 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     padding-top: 1px;
-    padding-bottom: 10px;
+    padding-bottom: 9px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
     background-image: url('banner.jpg');
     background-position: -1100px -400px;
-    /* border-radius: 50px; */
+}
+
+.footer {
+    font-family: 'DM Sans', sans-serif;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    left: 0px;
+    bottom: 0px;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+#insta:hover {
+    color: #eb4767;
+    text-decoration: none;
+}
+
+#yt:hover {
+    color: #E02F24;
+    text-decoration: none;
+}
+
+#twitter:hover {
+    color: #13AD96;
+    text-decoration: none;
 }
 
 .header h1 {
