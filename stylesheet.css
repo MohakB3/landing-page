@@ -1,10 +1,10 @@
 .header {
     text-align: center;
     color: white;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-top: 1px;
-    padding-bottom: 9px;
+    padding-bottom: 10px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
@@ -13,7 +13,7 @@
 }
 
 .footer {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: fixed;
     width: 100%;
     background-color: white;
@@ -26,6 +26,29 @@
 .footer a {
     color: black;
     text-decoration: none;
+}
+
+.Block {
+    font-family: 'Megrim', cursive;
+    /* margin: 50px; */
+    background-color: #F5F2E7;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+    font-size: 50px;
+}
+
+.Main_Body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #insta:hover {
