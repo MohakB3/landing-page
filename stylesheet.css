@@ -9,7 +9,7 @@
     margin-left: -10px;
     margin-right: -10px;
     background-image: url('banner.jpg');
-    background-position: -1100px -400px;
+    background-position: center;
 }
 
 .footer {
@@ -49,6 +49,23 @@
     font-size: 16px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.Main_Body_List {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#links {
+    color: #3B6AB8;
+    text-decoration: none;
+}
+
+#links:hover {
+    color: #5687D8;
+    text-decoration: underline;
 }
 
 #insta:hover {
@@ -119,4 +136,40 @@ body {
     color: white;
     max-width: 100%;
     overflow-x: hidden;
+}
+
+#table {
+    border-color: white;
+    visibility: visible;
+    border: 1px solid white;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+td, th {
+    padding: 20px;
+}
+
+.list {
+    color: white;
+    list-style-position: inside;
+    margin-right: 40px;
+}
+
+#image1 {
+    text-align: center;
+    height: 500px;
+    width: 750px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+}
+
+#image2 {
+    text-align: center;
+    height: 397px;
+    width: 705px;
+    margin-bottom: 100px;
+    border-radius: 50px0.;
 }
