@@ -17,8 +17,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
         
+        <script src="main.js"></script>
         <script src="https://kit.fontawesome.com/6a4a90c368.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -33,16 +34,34 @@
         <div class="Block">Projects</div>
 
         <div class="Main_Body">
-            <p><a href="landingpage.html">Landing Page</a></p>
-            <p><a href="string_length.html">String Length</a></p>
-            <p><a href="number_checker.html">Number Checker</a></p>
-            <p><a href="pizza_joes.html">Pizza Joe's</a></p>
-            <p><a href="twodigit_splitter.html">Two Digit Splitter</a></p>
-            <p><a href="mail_shipper.html">Abbyschools Mailing Department</a></p>
-            <p><a href="basic_calculator.html">Basic Calculator</a></p>
-            <p><a href="basic_calculator_modified.html">Basic Calculator Modified</a></p>
+            <h1>Basic Calculator Modified</h1>
+            <div class="calculator_display"><a id="calculator_display_text">Awaiting Input</a></div>
+            <br>
+            <br>
+            <form onsubmit="doMathModified()">
+                <label for="number">Enter Number 1:</label> 
+                <input type="text" id="calculation1" value=''>
+                <br>
+                <br>
+                <label for="number">Enter Number 2:</label> 
+                <input type="text" id="calculation2" value=''>
+                <br>
+                <br>
+                <select name="Operator" id="calculation_operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                  </select> // Ugly
+                <br>
+                <br>
+                <button id="buttons" onclick="doMathModified()" type="button">=</button>
+            </form>
         </div>
-
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="footer">
             <p>
                 Copyright Ⓒ 2022 MohakB. All Rights Reserved 

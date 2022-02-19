@@ -19,6 +19,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
 
         
+        <script src="main.js"></script>
         <script src="https://kit.fontawesome.com/6a4a90c368.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -33,14 +34,16 @@
         <div class="Block">Projects</div>
 
         <div class="Main_Body">
-            <p><a href="landingpage.html">Landing Page</a></p>
-            <p><a href="string_length.html">String Length</a></p>
-            <p><a href="number_checker.html">Number Checker</a></p>
-            <p><a href="pizza_joes.html">Pizza Joe's</a></p>
-            <p><a href="twodigit_splitter.html">Two Digit Splitter</a></p>
-            <p><a href="mail_shipper.html">Abbyschools Mailing Department</a></p>
-            <p><a href="basic_calculator.html">Basic Calculator</a></p>
-            <p><a href="basic_calculator_modified.html">Basic Calculator Modified</a></p>
+            <h1>Pizza Joe's Cost Calculator</h1>
+            <form onsubmit="pizzaCalculator()">
+                <label for="number">Pepperoni Pizzas:</label> 
+                <input type="text" id="pepperoni_input" value=''><br>
+                <br>
+                <label for="number">Hawaiian Pizzas:</label> 
+                <input type="text" id="hawaiian_input" value=''><br>
+                <br>
+                <button id="buttons" onclick="pizzaCalculator()" type="button">Start Program!</button>
+            </form>
         </div>
 
         <div class="footer">

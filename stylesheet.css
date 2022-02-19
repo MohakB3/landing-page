@@ -171,5 +171,48 @@ td, th {
     height: 397px;
     width: 705px;
     margin-bottom: 100px;
-    border-radius: 50px0.;
+    border-radius: 50px;
+}
+
+#buttons {
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #5BA0B2;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#buttons:hover {
+    background-color: #3B6975;
+}
+
+input {
+    background-color: #9EBCC4;
+    border-color: #9EBCC4;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calculator_display {
+    background-color: #1A1C1D;
+    color: #20C20E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+
+#calculation_operator {
+    background-color: #5BA0B2;
 }
